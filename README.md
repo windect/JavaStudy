@@ -15,16 +15,16 @@ while위에 for 추가
 엔딩 추가
 Menu 끝내기-> 턴끝내기로 변경
 
-[2020-04-28]-
-v3 업데이트
-SalaryManServiceTest.java 
-5~9번 명령 부분 업데이트
-5번 ssn 값을 받아서 ArrayList<SalaryMan> 로 return
-6번 hp 값 오름차순으로 정렬하여 보여주기(player에 현재 생명력을 직관적으로 확인할수있게)
-7번 salary 값을 내림차순으로 정렬 (승리에 가장 가까운 회사원을 직관적으로 확인할수있게)
-8번 기존에 승진을 월급협상으로 이름변경 
+[2020-04-28] - 이규환
+- v3 업데이트
+- SalaryManServiceTest.java 
+- 5~9번 명령 부분 업데이트
+- 5번 ssn 값을 받아서 ArrayList<SalaryMan> 로 return
+- 6번 hp 값 오름차순으로 정렬하여 보여주기(player에 현재 생명력을 직관적으로 확인할수있게)
+- 7번 salary 값을 내림차순으로 정렬 (승리에 가장 가까운 회사원을 직관적으로 확인할수있게)
+- 8번 기존에 승진을 월급협상으로 이름변경 
     ssn 값으로 인원을 선택하여 랜덤한값만큼 salary가 상승한다.
-9번 기존 삭제 구문에서 변경점 없음(ssn값으로 확인) 
+- 9번 기존 삭제 구문에서 변경점 없음(ssn값으로 확인) 
 
 SalaryManServiceImpl.java
 동작순서
